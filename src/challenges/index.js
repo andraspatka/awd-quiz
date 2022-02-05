@@ -3,18 +3,12 @@
  * guide for directions for adding new questions or modifying
  * the content of these challenges.
  */
-import feltetel from './feltetel';
-import ciklusok from './ciklusok';
-import tombok2d from './2dtombok';
-import tombok from './tombok';
-import fuggvenyek from './fuggvenyek';
+import phasesOfSiteDevel from './phasesOfSiteDevel';
+import css from './css';
 
 const challenges = [
-    feltetel,
-    ciklusok,
-    tombok2d,
-    tombok,
-    fuggvenyek
+    phasesOfSiteDevel,
+    css,
 ];
 
 /* This doesn't cover everything but serves as a basic verification that

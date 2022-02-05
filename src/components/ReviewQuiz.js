@@ -30,7 +30,7 @@ const renderQuestion = (question) => {
             ))}
             {explanation && (
                 <div className='explanation'>
-                    <h3>Magyarázat:</h3>
+                    <h3>Explanation:</h3>
                     <p>{renderMarkup(explanation)}</p>
                 </div>
             )}
@@ -66,10 +66,10 @@ class Review extends React.Component {
                 <div className='studyContainer'>
                     <div className='quizHeader'>
                         <div className='quizTitle'>
-                            <span>{quiz.get('title')} : Áttekintés</span>
+                            <span>{quiz.get('title')}: Overview</span>
                         </div>
                         <h3 className='quizMeta'>
-                            {challenges.size > 1 ? `összesen ${challenges.size} kérdés` : ''}
+                            {challenges.size > 1 ? `${challenges.size} questions in total` : ''}
                         </h3>
                         {screen.isDesktop &&
                         <span id="return">
