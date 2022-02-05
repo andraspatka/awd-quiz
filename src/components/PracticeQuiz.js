@@ -182,7 +182,7 @@ export default class Quiz extends React.Component {
 
                     <div className='quizHeader'>
                         <div className='quizTitle'>
-                            <span>{quiz.get('title')} kvíz</span>
+                            <span>{quiz.get('title')} quiz</span>
                         </div>
                         {!this.state.complete
                             ? <h3 className='quizMeta'>{index + 1} / {numberOfQuestions} question</h3>

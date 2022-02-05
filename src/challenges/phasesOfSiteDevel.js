@@ -62,7 +62,6 @@ export default {
                 `Planning`,
                 `Design`,
                 `Development`,
-                `Planning`,
                 `Testing, delivery and marketing`,
                 `Tracking, evaluation and maintenance`,
             ],
@@ -116,7 +115,7 @@ export default {
                 `Planning - because one form of planning is creating wireframes.`,
                 `Development - because you can see what would work and what wouldn't.`,
                 `Tracking, evaluation and maintenance - because at this point you've seen what the users like and what they don't like.`,
-                `Design - because in this phase you can already start development of the site and.`,
+                `Design - because in this phase you can already start development of the site and can easily make modifications to the website based on the wireframe.`,
             ],
             solution: `0`,
             explanation: `

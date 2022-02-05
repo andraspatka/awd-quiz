@@ -33,7 +33,7 @@ export default (state = defaultState, action) => {
         case START_ALL: {
             const quizzes = state.get('quizzes').map(shuffleQuiz);
             const quiz = fromJS({
-                title: 'Összes kategóriából',
+                title: 'All categories',
                 challenges: quizzes.reduce((all, quiz) => {
                     return all.concat(quiz.get('challenges'));
                 }, List())

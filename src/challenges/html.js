@@ -67,7 +67,7 @@
 				`
         },
         {
-            title: `How to easily improve the accesibilty of your website?`,
+            title: `How to easily improve the accesibility of your website?`,
             subtitle: `HTML4`,
             choices: [
                 `Provide meaningful alt attributes to HTML attributes such as buttons and images.`,
