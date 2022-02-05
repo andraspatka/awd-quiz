@@ -1,6 +1,6 @@
 {
-  "short_name": "Info quiz",
-  "name": "Sapientia informatika felveteli kviz",
+  "short_name": "AWD quiz",
+  "name": "Adaptive Web Design quiz",
   "icons": [
     {
       "src": "favicon.ico",

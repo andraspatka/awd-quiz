@@ -5,10 +5,12 @@
  */
 import phasesOfSiteDevel from './phasesOfSiteDevel';
 import css from './css';
+import html from './html';
 
 const challenges = [
     phasesOfSiteDevel,
     css,
+    html,
 ];
 
 /* This doesn't cover everything but serves as a basic verification that
