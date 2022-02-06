@@ -95,5 +95,23 @@
                 Markdown is a specific markup library.
 				`
         },
+        {
+            title: `What is the DOM (Document Object Model)?`,
+            subtitle: `HTML6`,
+            choices: [
+                `It's a programming interface for web documents. 
+                It represents the page so that programs can change the document structure, style, and content.`,
+                `It's a popular framework for web development. It makes development of web pages much faster
+                by providing templates for commonly used components.`,
+                `It's a modelling language used for creating wireframes.`,
+                `It's an alternative to Microsoft Word`,
+            ],
+            solution: `0`,
+            explanation: `
+                The Document Object Model (DOM) is a programming interface for web documents. 
+                It represents the page so that programs can change the document structure, style, and content. 
+                The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
+				`
+        },
     ]
 };

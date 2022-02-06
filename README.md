@@ -1,4 +1,4 @@
-# Quiz about adaptive web design
+# Quiz about adaptive web design [![Deploy](https://github.com/andraspatka/awd-quiz/actions/workflows/deploy.yml/badge.svg)](https://github.com/andraspatka/awd-quiz/actions/workflows/deploy.yml)
 
 Folder structure:
 
@@ -26,4 +26,13 @@ The react application can be built into static html/js/css files using:
 npm run build
 ```
 
-The result of this command can be 
+The result of this command is automatically uploaded to S3 via Github actions.
+
+## Acknowledgements
+
+This project is a fork of:
+- https://github.com/bonham000/app-time-lessons
+
+## Adding more questions
+
+See [CONTIRBUTING.md](CONTRIBUTING.md).

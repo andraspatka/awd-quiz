@@ -6,11 +6,13 @@
 import phasesOfSiteDevel from './phasesOfSiteDevel';
 import css from './css';
 import html from './html';
+import colors from './colors';
 
 const challenges = [
     phasesOfSiteDevel,
     css,
     html,
+    colors,
 ];
 
 /* This doesn't cover everything but serves as a basic verification that

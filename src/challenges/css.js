@@ -8,24 +8,21 @@ const end = `</code></pre>`;
 const STYLESHEET_INCLUDE_OK = {
     snippet: `
     ${start}
-        &ltlink rel="stylesheet"
-            href="css/style.css"/&gt
+        &ltlink rel="stylesheet" href="css/style.css"/&gt
     ${end}`
 };
 
 const STYLESHEET_INCLUDE_WRONG1 = {
     snippet: `
     ${start}
-        &ltlink rel="javascript"
-            href="css/style.css"/&gt
+        &ltlink rel="javascript" href="css/style.css"/&gt
     ${end}`
 };
 
 const STYLESHEET_INCLUDE_WRONG2 = {
     snippet: `
     ${start}
-        &ltlink rel="javascript"
-            href="css/style.js"/&gt
+        &ltlink rel="javascript" href="css/style.js"/&gt
     ${end}`
 };
 
