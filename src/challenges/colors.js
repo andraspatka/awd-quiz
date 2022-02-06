@@ -12,7 +12,7 @@
             choices: [
                 `Contrast is the difference in the visual properties that distinguish 
                 an object from other objects and the background.`,
-                `Contrast is shade of gray.`,
+                `Contrast is a shade of gray.`,
                 `Contrast is accenting text on a black background by having it be written in white.`,
                 `Contrast is a design technique which consists of picking light colors.`,
                 `Contrast is a characteristic of desktop monitors.`,
