@@ -24,5 +24,6 @@ jobs:
         run: |
           aws s3 ls
       - name: Upload files under build to S3
+        run: |
           aws s3 cp build/* s3://${AWS_BUCKET_NAME} --recursive 
           
