@@ -1,10 +1,8 @@
-# Sapientia Informatika felvételire felkészítő kvíz alkalmazás ![Deploy](https://github.com/andraspatka/sapi-info-kviz/workflows/Deploy/badge.svg)
+# Quiz about adaptive web design
 
----
+Folder structure:
 
-Mappastruktúra:
-
- - src: forrásállományok
+ - src: source code
     - challenges
     - components
     - redux
@@ -13,9 +11,19 @@ Mappastruktúra:
  - public:
     - assets
 
-Lokális futtatáshoz:
+Running it locally:
 
 ```sh
 npm install
 npm start
 ```
+
+## Deploying it to AWS S3
+
+The react application can be built into static html/js/css files using:
+
+```sh
+npm run build
+```
+
+The result of this command can be 
