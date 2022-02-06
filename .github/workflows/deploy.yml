@@ -16,9 +16,8 @@ jobs:
         run: npm install
       - name: Build app
         run: npm run build
-      - name: Install AWS cli
+      - name: Get AWS CLI version
         run: |
-          curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-          unzip awscliv2.zip
-          sudo ./aws/install
+          aws --version
+          which aws
           
